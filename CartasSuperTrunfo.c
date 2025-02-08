@@ -36,19 +36,18 @@ int main() {
     scanf("%f", &area);
 
     printf("Digite o PIB: ");
-    scanf("%f", &area);
+    scanf("%f", &pib);
 
     printf("Digite a quantidade de pontos turísticos: ");
     scanf("%d", &pontosturisticos);
 
-    //Dados das Cartas na Tela:
 
     printf("Dados da cidade cadastrada:\n");
     printf("Código: %s\n", codigo);
     printf("Nome: %s\n", nome);
     printf("População: %d habitantes\n", populacao);
-    printf("Área: %.2f km²\n", area);
-    printf("PIB: R$ %.2f bilhões\n", pib);
+    printf("Área: %.2f kilometros quadrados\n", area);
+    printf("PIB: %.2f\n", pib);
     printf("Pontos turísticos: %d\n", pontosturisticos);
 
     return 0;
