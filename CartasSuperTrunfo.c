@@ -21,7 +21,7 @@ int main() {
     int populacao;
     float area;
     float pib;
-    int pontos_turisticos;
+    int pontosturisticos;
 
     printf("Digite o codigo da cidade:");
     scanf("%3s", codigo);
@@ -38,8 +38,8 @@ int main() {
     printf("Digite o PIB: ");
     scanf("%f", &area);
 
-    printf("Digite o número de pontos turiísticos: ");
-    scanf("%d", &pontos_turisticos);
+    printf("Digite a quantidade de pontos turísticos: ");
+    scanf("%d", &pontosturisticos);
 
     //Dados das Cartas na Tela:
 
@@ -49,7 +49,7 @@ int main() {
     printf("População: %d habitantes\n", populacao);
     printf("Área: %.2f km²\n", area);
     printf("PIB: R$ %.2f bilhões\n", pib);
-    printf("Pontos turísticos: %d\n", pontos_turisticos);
+    printf("Pontos turísticos: %d\n", pontosturisticos);
 
     return 0;
 }
